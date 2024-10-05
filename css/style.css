@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #FFE100;
+}
+
+.home-item h3{
+    color: #FFE100;
+}
+
+.home-item a{
+    background-color: #FFE100;
+}
+
+.home-content{
+    background-color: #F7F3E5;
+}

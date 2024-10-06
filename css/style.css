@@ -19,3 +19,7 @@
 .home-content{
     background-color: #F7F3E5;
 }
+
+.home-img img{
+    object-fit: cover;
+}

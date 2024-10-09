@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.navbar{
+.navbar-nav{
     background-color: #FFE100;
 }
 
@@ -16,9 +16,9 @@
     background-color: #FFE100;
 }
 
-.home-content{
+/* .home-content{
     background-color: #F7F3E5;
-}
+} */
 
 .home-img img{
     object-fit: cover;

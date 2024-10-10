@@ -4,21 +4,19 @@
     box-sizing: border-box;
 }
 
-.navbar-nav{
+.scrolled{
     background-color: #FFE100;
+    color: black !important; 
+    transition: .3s;
 }
 
-.home-item h3{
+.home-item h3, .blog-title h2{
     color: #FFE100;
 }
 
 .home-item a{
     background-color: #FFE100;
 }
-
-/* .home-content{
-    background-color: #F7F3E5;
-} */
 
 .home-content{
     background: url("../images/charity-home-image.jpg") rgba(0,0,0,0.6);
@@ -28,4 +26,3 @@
     height: 100vh;
     background-blend-mode: color-burn;
 }
-

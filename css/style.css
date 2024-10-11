@@ -14,7 +14,8 @@
 
 .home-item h3,
 .blog-title h2,
-.blog-inner .card-title{
+.blog-inner .card-title,
+.strategies-item h2{
     color: #FFE100;
 }
 
@@ -33,10 +34,14 @@
 
 /* ------------------------------ BLOG SECTION --------------------- */
 
-.blog-item .btn{
+.blog-item .btn, .strategies-title .btn{
     background-color: #FFE100;
 }
 
 .blog-item img{
     height: 300px;
+}
+
+.strategies-item img{
+    width: 100px;
 }

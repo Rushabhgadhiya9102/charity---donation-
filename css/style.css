@@ -10,7 +10,11 @@
     transition: .3s;
 }
 
-.home-item h3, .blog-title h2{
+/* ---------------------------- HOME SECTION ---------------------------- */
+
+.home-item h3,
+.blog-title h2,
+.blog-inner .card-title{
     color: #FFE100;
 }
 
@@ -25,4 +29,14 @@
     width: 100%;
     height: 100vh;
     background-blend-mode: color-burn;
+}
+
+/* ------------------------------ BLOG SECTION --------------------- */
+
+.blog-item .btn{
+    background-color: #FFE100;
+}
+
+.blog-item img{
+    height: 300px;
 }

@@ -19,7 +19,7 @@
     color: #FFE100;
 }
 
-.home-item a{
+.home-item a, #footer .card{
     background-color: #FFE100;
 }
 

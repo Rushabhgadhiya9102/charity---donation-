@@ -5,8 +5,9 @@ document.addEventListener("DOMContentLoaded",function (){
     window.addEventListener('scroll',() => {
         if(window.scrollY > 0){
             navigation.classList.add('scrolled');
+                
         }else{
-            navigation.classList.remove('scrolled');
+            navigation.classList.remove('scrolled');    
         }
     });
 

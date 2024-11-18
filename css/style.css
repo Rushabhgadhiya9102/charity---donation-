@@ -8,15 +8,14 @@
     
     background: #ffc107d6;
     border-bottom: 0%;
-    backdrop-filter: blur(10px) !important; 
-    transition: .3s;
+    backdrop-filter: blur(10px) !important;
+    width: 50%; 
+    transition: .3s ease-out !important;
 }
 
 /* ---------------------------- HOME SECTION ---------------------------- */
 
-.home-item a, #footer .card{
-    background-color: #FFE100;
-}
+
 
 .home-content{
     background: url("../images/charity-home-image.jpg") rgba(0,0,0,0.6);
@@ -30,14 +29,15 @@
 
 /* ------------------------------ BLOG SECTION --------------------- */
 
-.blog-item .btn, .strategies-title .btn{
-    background-color: #FFE100;
-}
 
 .blog-item img{
-    height: 300px;
+    height: 400px;
+}
+
+#blog .row{
+    scrollbar-width: none;
 }
 
 .strategies-item img{
-    width: 100px;
+    width: 80px;
 }

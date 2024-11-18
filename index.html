@@ -15,11 +15,11 @@
     <!--------------------------------------- N A V I G A T I O N - B A R -------------------------------------------->
 
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container rounded-pill border-bottom mt-2">
-                <a class="navbar-brand" href="#"><i class="bi bi-heart-pulse-fill text-white fw-bold ms-3"> CHARITY</i></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#my-navbar">
+        <nav class="navbar navbar-expand-lg fixed-top justify-content-center">
+            <div class="container-fluid px-5 rounded-pill mx-3 mt-2">
+                <a class="navbar-brand fs-4" href="#"><i class="bi bi-heart-pulse-fill text-white fw-bold">
+                        </i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="my-navbar">
@@ -44,7 +44,7 @@
 
                     <ul class="navbar-nav icons d-flex list-unstyled me-3">
                         <li class="nav-item">
-                            <a class="nav-link fs-5 text-white" href="#"><i class="bi bi-person-circle"></i></a>
+                            <a class="nav-link fs-4 text-white" href="#"><i class="bi bi-person-circle"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -93,123 +93,99 @@
         <section id="blog" class="py-5">
 
             <div class="container">
-                <div class="blog-title">
-                    <h2 class="display-3 fw-bold text-center">Our Blogs</h2>
-                    <p class="text-center w-50 mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Pariatur debitis veritatis sint deleniti quis ducimus. Facilis temporibus sunt beatae modi
-                        molestiae illum atque, ipsam quaerat aliquid sapiente quis obcaecati? Alias!</p>
+                <div class="blog-title mb-5 text-center">
+                    <h2 class="display-3 text-warning fw-bold">Our Blogs</h2>
                 </div>
+             </div>
 
                 <div class="blog-inner">
-                    <div class="d-flex justify-content-center my-5">
-                        <div class="btn-group gap-3" role="group" aria-label="Basic radio toggle button group">
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
-                                checked>
-                            <label class="btn btn-outline-warning rounded-pill px-4" for="btnradio1">All</label>
-
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                            <label class="btn btn-outline-warning rounded-pill" for="btnradio2">Education</label>
-
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                            <label class="btn btn-outline-warning rounded-pill" for="btnradio3">Medical</label>
-
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-                            <label class="btn btn-outline-warning rounded-pill" for="btnradio4">Water</label>
-
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
-                            <label class="btn btn-outline-warning rounded-pill" for="btnradio5">Food</label>
-                        </div>
-                    </div>
-
-                    <div class="row g-4">
+                    <div class="container-fluid">
+                    <div class="row g-3 flex-nowrap overflow-x-scroll">
 
                         <!-------------------------- BLOG - CARD - 1 -------------------------->
 
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item card shadow" style="height: 35rem;">
-                                <img src="images/foods.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h3 class="card-title">Food for all people</h3>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
-                                        culpa deleniti vitae perspiciatis minima ex est nihil repudiandae eaque ipsa
-                                        iste molestias sint sapiente, praesentium eum soluta excepturi ratione placeat.
-                                    </p>
-                                    <a href="#" class="btn fw-semibold">Donate</a>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-left: 6%;">
+                            <div class="blog-item">
+                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
+                                    <img src="images/foods.webp" alt="">
+                                    <div class="card-img-overlay">
+                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Foods</p>
+                                        <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <!-------------------------- BLOG - CARD - 2 -------------------------->
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item card shadow" style="height: 35rem;">
-                                <img src="images/educations.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h3 class="card-title">Education for all children</h3>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
-                                        culpa deleniti vitae perspiciatis minima ex est nihil repudiandae eaque ipsa
-                                        iste molestias sint sapiente, praesentium eum soluta excepturi ratione placeat.
-                                    </p>
-                                    <a href="#" class="btn fw-semibold">Donate</a>
+                            <div class="blog-item">
+                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
+                                    <img src="images/clothes.webp" alt="">
+                                    <div class="card-img-overlay">
+                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Clothes</p>
+                                        <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <!-------------------------- BLOG - CARD - 3 -------------------------->
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item card shadow" style="height: 35rem;">
-                                <img src="images/medical.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h3 class="card-title">Medical for all people</h3>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
-                                        culpa deleniti vitae perspiciatis minima ex est nihil repudiandae eaque ipsa
-                                        iste molestias sint sapiente, praesentium eum soluta excepturi ratione placeat.
-                                    </p>
-                                    <a href="#" class="btn fw-semibold">Donate</a>
+                            <div class="blog-item">
+                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
+                                    <img src="images/educations.webp" alt="">
+                                    <div class="card-img-overlay">
+                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Education</p>
+                                        <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <!-------------------------- BLOG - CARD - 4 -------------------------->
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item card shadow" style="height: 35rem;">
-                                <img src="images/clothes.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h3 class="card-title">Clothes for all people</h3>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
-                                        culpa deleniti vitae perspiciatis minima ex est nihil repudiandae eaque ipsa
-                                        iste molestias sint sapiente, praesentium eum soluta excepturi ratione placeat.
-                                    </p>
-                                    <a href="#" class="btn fw-semibold">Donate</a>
+                            <div class="blog-item">
+                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
+                                    <img src="images/cleaning.webp" alt="">
+                                    <div class="card-img-overlay">
+                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0"> Environment</p>
+                                        <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <!-------------------------- BLOG - CARD - 5 -------------------------->
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item card shadow" style="height: 35rem;">
-                                <img src="images/enviornment.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h3 class="card-title">Protect Environment</h3>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
-                                        culpa deleniti vitae perspiciatis minima ex est nihil repudiandae eaque ipsa
-                                        iste molestias sint sapiente, praesentium eum soluta excepturi ratione placeat.
-                                    </p>
-                                    <a href="#" class="btn fw-semibold">Donate</a>
+                            <div class="blog-item">
+                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
+                                    <img src="images/animals.webp" alt="">
+                                    <div class="card-img-overlay">
+                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Animals</p>
+                                        <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <!-------------------------- BLOG - CARD - 6 -------------------------->
-
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item card shadow" style="height: 35rem;">
-                                <img src="images/animals.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h3 class="card-title">Protect Animals</h3>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
-                                        culpa deleniti vitae perspiciatis minima ex est nihil repudiandae eaque ipsa
-                                        iste molestias sint sapiente, praesentium eum soluta excepturi ratione placeat.
-                                    </p>
-                                    <a href="#" class="btn fw-semibold">Donate</a>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-right: 6%;">
+                            <div class="blog-item">
+                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
+                                    <img src="images/medical.webp" alt="">
+                                    <div class="card-img-overlay">
+                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Medical</p>
+                                        <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -226,52 +202,64 @@
 
             <div class="container">
                 <div class="row g-3">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="strategies-title">
-                            <h2 class="text-capitalize">Strategic priorities upto 2040 are</h2>
-                            <a href="#" class="btn rounded-pill fw-semibold">Become a volunteer</a>
-                        </div>
-                    </div>
 
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="strategies-item">
-                            <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
-                                <img src="images/last-year.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2>612+</h2>
-                                    <h4 class="card-text">People supported last year</h4>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="row ">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="strategies-title" style="height: 10rem;">
+                                    <h2 class="text-capitalize">Strategic priorities upto 2040 are</h2>
+                                    <a href="#" class="btn btn-warning rounded-pill fw-semibold">Become a volunteer</a>
+                                </div>
+                            </div>
+                        
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="strategies-item">
+                                    <div class="card px-3 py-5 shadow border-0" style=" height: 15rem;">
+                                        <img src="images/last-year.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h2 class="text-warning">612+</h2>
+                                            <h4 class="card-text">People supported last year</h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
 
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="strategies-item">
-                            <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
-                                <img src="images/shelter.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2>24+</h2>
-                                    <h4 class="card-text">Accommodation & Shelter Projects</h4>
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="strategies-item">
+                                <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
+                                    <img src="images/shelter.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h2 class="text-warning">240+</h2>
+                                        <h4 class="card-text">Accommodation & Shelter Projects</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="strategies-item">
+                                <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
+                                    <img src="images/support.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h2 class="text-warning">60k+</h2>
+                                        <h4 class="card-text">Marginalsied People Supported Daily</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="strategies-item">
-                            <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
-                                <img src="images/support.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2>60k+</h2>
-                                    <h4 class="card-text">Marginalsied People Supported Daily</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   </div>
                 </div>
                 <div class="strategies-title py-5 text-center">
                     <h2>Together we can a make difference</h2>
-                    <p class="w-50 mx-auto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum est rerum itaque sunt aperiam qui? Deserunt magnam sequi nostrum corrupti perferendis beatae est dicta obcaecati, omnis eum porro accusantium saepe.</p>
+                    <p class="w-50 mx-auto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum est
+                        rerum itaque sunt aperiam qui? Deserunt magnam sequi nostrum corrupti perferendis beatae est
+                        dicta obcaecati, omnis eum porro accusantium saepe.</p>
                 </div>
             </div>
         </section>
@@ -292,7 +280,9 @@
                 <div class="row gx-5">
                     <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <h2 class="text-white">About us</h2>
-                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore culpa doloribus aliquid ut quibusdam velit neque mollitia illo nostrum magnam eos, modi obcaecati, odit rem cumque maiores recusandae facilis vel.</p>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore culpa
+                            doloribus aliquid ut quibusdam velit neque mollitia illo nostrum magnam eos, modi obcaecati,
+                            odit rem cumque maiores recusandae facilis vel.</p>
                         <div class="footer-icons d-flex gap-3">
                             <a class="fs-5 text-white" href="#"><i class="bi bi-facebook"></i></a>
                             <a class="fs-5 text-white" href="#"><i class="bi bi-instagram"></i></a>
@@ -300,21 +290,21 @@
                             <a class="fs-5 text-white" href="#"><i class="bi bi-youtube"></i></a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4" >
-                      <div class="footer-content px-5 mx-5">
-                        <h2 class="text-white">Information</h2>
-                        <p class="text-white">Become a volunteer</p>
-                        <p class="text-white">Become a volunteer</p>
-                        <p class="text-white">Make a donation</p>
-                      </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="footer-content px-5 mx-5">
+                            <h2 class="text-white">Information</h2>
+                            <p class="text-white">Become a volunteer</p>
+                            <p class="text-white">Become a volunteer</p>
+                            <p class="text-white">Make a donation</p>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                       <div class="footer-content px-5 mx-5">
-                        <h2 class="text-white">Support</h2>
-                        <p class="text-white">All causes</p>
-                        <p class="text-white">Electricity</p>
-                        <p class="text-white">Food and water</p>
-                       </div>
+                        <div class="footer-content px-5 mx-5">
+                            <h2 class="text-white">Support</h2>
+                            <p class="text-white">All causes</p>
+                            <p class="text-white">Electricity</p>
+                            <p class="text-white">Food and water</p>
+                        </div>
                     </div>
                 </div>
             </div>

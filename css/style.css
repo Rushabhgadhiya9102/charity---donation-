@@ -6,9 +6,9 @@
 
 .scrolled{
     
-    background: #ffc107d6;
+    background: #ffc107;
     border-bottom: 0%;
-    backdrop-filter: blur(10px) !important;
+    /* backdrop-filter: blur(10px) !important; */
     width: 50%; 
     transition: .3s ease-out !important;
 }

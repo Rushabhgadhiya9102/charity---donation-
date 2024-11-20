@@ -27,11 +27,28 @@
     background-blend-mode: color-burn;
 }
 
+/* A B O U T - U S - S E C T I O N */
+
+  li.timeline-item::before{
+    background-color: #ffc107 !important;
+  }
+
+  .timeline::after{
+    background-color: #ffc107 !important;
+  }
+
+  #about-us img{
+    object-fit: cover;
+    height: 500px !important;
+  }
+
+/* A B O U T - U S - S E C T I O N */
+
 /* ------------------------------ BLOG SECTION --------------------- */
 
 
 .blog-item img{
-    height: 400px;
+    height: 350px;
 }
 
 #blog .row{

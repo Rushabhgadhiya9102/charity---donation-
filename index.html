@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+        href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-1/assets/css/timeline-1.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Document</title>
 </head>
@@ -18,7 +20,7 @@
         <nav class="navbar navbar-expand-lg fixed-top justify-content-center">
             <div class="container-fluid px-5 rounded-pill mx-3 mt-2">
                 <a class="navbar-brand fs-4" href="#"><i class="bi bi-heart-pulse-fill text-white fw-bold">
-                        </i></a>
+                    </i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -65,8 +67,10 @@
                             <div class="home-item ms-5 w-50 text-white mt-5">
                                 <h3 class="fw-bold display-2 text-warning">Together, We Can Make a Difference</h3>
                                 <h2 class="text-capitalize fw-bold">Join us in transforming lives and communities.</h2>
-                                <p>Welcome to [Charity Name], where every contribution helps us create a brighter future for those in need. Our mission is
-                                to [briefly state mission, e.g., 'provide clean water, support education, and empower communities.'</p>
+                                <p>Welcome to [Charity Name], where every contribution helps us create a brighter future
+                                    for those in need. Our mission is
+                                    to [briefly state mission, e.g., 'provide clean water, support education, and
+                                    empower communities.'</p>
                                 <a class="btn btn-warning fw-semibold " href="#">Donate now</a>
                                 <div class="position-absolute bottom-0 start-0 ms-5 mb-5">
                                     <ul class="list-unstyled d-flex gap-3 fs-4">
@@ -84,30 +88,106 @@
 
         <!----------------------------------- H O M E - S E C T I O N ----------------------------->
 
+        <!----------------------------------- A B O U T - U S - S E C T I O N ----------------------------->
+
+        <!-- Timeline 1 - Bootstrap Brain Component -->
+        <section class="bsb-timeline-1 py-5" id="about-us">
+            <div class="container">
+
+                <div class="about-us-title pb-5">
+                    <h2 class="text-warning fs-1">About us</h2>
+                </div>
+                <div class="row">
+                    <div class="col-10 col-md-8 col-lg-6 col-xl-6">
+
+                        <ul class="timeline">
+                            <li class="timeline-item">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h2 class="card-title mb-3">Our mission</h2>
+                                                <p class="card-text m-0">Powerful, extensible, and feature-packed
+                                                    frontend
+                                                    toolkit. Build and customize with Sass, utilize prebuilt grid system
+                                                    and
+                                                    components, and bring projects to life with powerful JavaScript
+                                                    plugins.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="timeline-item">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h2 class="card-title mb-3">Our story</h2>
+                                                <p class="card-text m-0">Get started with Bootstrap, the world’s most
+                                                    popular
+                                                    framework for building responsive, mobile-first sites, with jsDelivr
+                                                    and a
+                                                    template starter page. Bootstrap 4 has no active support.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="timeline-item">
+                                <div class="timeline-body">
+                                    <div class="timeline-content">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h2 class="card-title mb-3">Our team</h2>
+                                                <p class="card-text m-0">Bootstrap is the most popular HTML, CSS, and JS
+                                                    framework for developing responsive, mobile first projects on the
+                                                    web.
+                                                    Bootstrap 3 has no active support.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="img-content d-flex">
+                            <img src="./images/about.png" class="img-fluid mx-auto" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------------------- A B O U T - U S - S E C T I O N ----------------------------->
+
         <!----------------------------------- B L O G - S E C T I O N ----------------------------->
 
         <section id="blog" class="py-5">
 
             <div class="container">
-                <div class="blog-title mb-5 text-center">
-                    <h2 class="display-3 text-warning fw-bold">Our Blogs</h2>
+                <div class="blog-title mb-5">
+                    <h2 class="fs-1 text-warning">Our Blogs</h2>
                 </div>
-             </div>
+            </div>
 
-                <div class="blog-inner">
-                    <div class="container-fluid">
+            <div class="blog-inner">
+                <div class="container-fluid">
                     <div class="row g-3 flex-nowrap overflow-x-scroll">
 
                         <!-------------------------- BLOG - CARD - 1 -------------------------->
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-left: 6%;">
                             <div class="blog-item">
-                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
-                                    <img src="images/foods.webp" alt="">
-                                    <div class="card-img-overlay">
-                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Foods</p>
-                                        <i
-                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                <div class="card border-0 ">
+                                    <img src="images/foods.webp" class="rounded-4" alt="">
+                                    <div class="card-body">
+                                        <p class="fw-bold fs-1 text-warning ">Foods</p>
+                                        <!-- <i
+                                            class="bi bi-plus-circle-fill text-warning fs-3 position-absolute bottom-50 end-0"></i> -->
                                     </div>
                                 </div>
                             </div>
@@ -117,12 +197,12 @@
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                             <div class="blog-item">
-                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
-                                    <img src="images/clothes.webp" alt="">
-                                    <div class="card-img-overlay">
-                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Clothes</p>
-                                        <i
-                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                <div class="card border-0 ">
+                                    <img src="images/clothes.webp" class="rounded-4" alt="">
+                                    <div class="card-body">
+                                        <p class="fw-bold fs-1 text-warning">Clothes</p>
+                                        <!-- <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i> -->
                                     </div>
                                 </div>
                             </div>
@@ -132,12 +212,12 @@
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                             <div class="blog-item">
-                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
-                                    <img src="images/educations.webp" alt="">
-                                    <div class="card-img-overlay">
-                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Education</p>
-                                        <i
-                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                <div class="card border-0 ">
+                                    <img src="images/educations.webp" class="rounded-4" alt="">
+                                    <div class="card-body">
+                                        <p class="fw-bold fs-1 text-warning">Education</p>
+                                        <!-- <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i> -->
                                     </div>
                                 </div>
                             </div>
@@ -147,12 +227,12 @@
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                             <div class="blog-item">
-                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
-                                    <img src="images/cleaning.webp" alt="">
-                                    <div class="card-img-overlay">
-                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0"> Environment</p>
-                                        <i
-                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                <div class="card border-0 ">
+                                    <img src="images/cleaning.webp" class="rounded-4" alt="">
+                                    <div class="card-body">
+                                        <p class="fw-bold fs-1 text-warning"> Environment</p>
+                                        <!-- <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i> -->
                                     </div>
                                 </div>
                             </div>
@@ -162,12 +242,12 @@
 
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                             <div class="blog-item">
-                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
-                                    <img src="images/animals.webp" alt="">
-                                    <div class="card-img-overlay">
-                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Animals</p>
-                                        <i
-                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                <div class="card border-0 ">
+                                    <img src="images/animals.webp" class="rounded-4" alt="">
+                                    <div class="card-body">
+                                        <p class="fw-bold fs-1 text-warning">Animals</p>
+                                        <!-- <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i> -->
                                     </div>
                                 </div>
                             </div>
@@ -175,12 +255,12 @@
                         <!-------------------------- BLOG - CARD - 6 -------------------------->
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-right: 6%;">
                             <div class="blog-item">
-                                <div class="card rounded-4 overflow-hidden position-relative border-0 ">
-                                    <img src="images/medical.webp" alt="">
-                                    <div class="card-img-overlay">
-                                        <p class="fw-bold fs-1 text-white position-absolute bottom-0">Medical</p>
-                                        <i
-                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i>
+                                <div class="card border-0 ">
+                                    <img src="images/medical.webp" class="rounded-4" alt="">
+                                    <div class="card-body">
+                                        <p class="fw-bold fs-1 text-warning">Medical</p>
+                                        <!-- <i
+                                            class="bi bi-plus-circle-fill text-white fs-3 position-absolute bottom-0 end-0 m-4"></i> -->
                                     </div>
                                 </div>
                             </div>
@@ -194,10 +274,22 @@
 
         <!----------------------------------- S T R A T E G I E S - S E C T I O N ----------------------------->
 
-        <section id="strategies" class="py-5">
+        <section id="strategies" class="py-5 bg-light">
 
             <div class="container">
                 <div class="row g-3">
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="strategies-item">
+                            <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
+                                <img src="images/shelter.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h2 class="text-warning">240+</h2>
+                                    <h4 class="card-text">Accommodation & Shelter Projects</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                         <div class="row ">
@@ -207,7 +299,7 @@
                                     <a href="#" class="btn btn-warning rounded-pill fw-semibold">Become a volunteer</a>
                                 </div>
                             </div>
-                        
+
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="strategies-item">
                                     <div class="card px-3 py-5 shadow border-0" style=" height: 15rem;">
@@ -221,35 +313,18 @@
                             </div>
                         </div>
                     </div>
-                    
 
-                   <div class="col-12 col-sm-12 col-md-6 col-lg-8">
-                    <div class="row g-3">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="strategies-item">
-                                <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
-                                    <img src="images/shelter.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h2 class="text-warning">240+</h2>
-                                        <h4 class="card-text">Accommodation & Shelter Projects</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="strategies-item">
-                                <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
-                                    <img src="images/support.webp" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h2 class="text-warning">60k+</h2>
-                                        <h4 class="card-text">Marginalsied People Supported Daily</h4>
-                                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="strategies-item">
+                            <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
+                                <img src="images/support.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h2 class="text-warning">60k+</h2>
+                                    <h4 class="card-text">Marginalsied People Supported Daily</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   </div>
                 </div>
                 <div class="strategies-title py-5 text-center">
                     <h2>Together we can a make difference</h2>

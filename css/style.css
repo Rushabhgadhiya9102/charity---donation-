@@ -35,6 +35,7 @@
 
   .timeline::after{
     background-color: #ffc107 !important;
+    height: 80%;
   }
 
   #about-us img{

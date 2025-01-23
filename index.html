@@ -1,403 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet"
-        href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-1/assets/css/timeline-1.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-1/assets/css/timeline-1.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!--------------------------------------- N A V I G A T I O N - B A R -------------------------------------------->
 
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top justify-content-center">
-            <div class="container-fluid px-5 rounded-pill mx-3 mt-2">
-                <a class="navbar-brand fs-4" href="#"><i class="bi bi-heart-pulse-fill text-white fw-bold">
-                    </i></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="my-navbar">
-                    <ul class="navbar-nav gap-2 mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white fs-5 fw-semibold " href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-5 fw-semibold " href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-5 fw-semibold " href="#">Our impact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-5 fw-semibold " href="#">
-                                Get involved</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-5 fw-semibold " href="#">Contact us</a>
-                        </li>
-                    </ul>
+      <nav class="navbar navbar-expand-lg fixed-top justify-content-center">
+        <div class="container-fluid px-5 rounded-pill mx-3 mt-2">
+          <a class="navbar-brand fs-4" href="#"><i class="bi bi-heart-pulse-fill text-white fw-bold"> </i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="my-navbar">
+            <ul class="navbar-nav gap-2 mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white fs-5 fw-semibold" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-5 fw-semibold" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-5 fw-semibold" href="#">Our Bolgs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-5 fw-semibold" href="#"> Get involved</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-5 fw-semibold" href="#">Contact us</a>
+              </li>
+            </ul>
 
-                    <ul class="navbar-nav icons d-flex list-unstyled me-3">
-                        <li class="nav-item">
-                            <a class="nav-link fs-4 text-white" href="#"><i class="bi bi-person-circle"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            <ul class="navbar-nav icons d-flex list-unstyled me-3">
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-white" href="#"><i class="bi bi-person-circle"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--------------------------------------- N A V I G A T I O N - B A R - E N D ------------------------------------------->
 
     <main>
+      <!----------------------------------- H O M E - S E C T I O N ----------------------------->
+      <section id="home">
+        <div class="row gx-0">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="home-inner p-2">
+              <div class="home-content position-relative d-flex pt-5">
+                <div class="home-item ms-5 w-50 text-white mt-5">
+                  <h3 class="fw-bold display-2 text-warning">Together, We Can Make a Difference</h3>
+                  <h2 class="text-capitalize fw-bold">Join us in transforming lives and communities.</h2>
+                  <p>
+                    Welcome to [Charity Name], where every contribution helps us create a brighter future for those in need. Our mission is to
+                    [briefly state mission, e.g., 'provide clean water, support education, and empower communities.'
+                  </p>
+                  <a class="btn btn-warning fw-semibold" href="#">Donate now</a>
+                  <div class="position-absolute bottom-0 start-0 ms-5 mb-5">
+                    <ul class="list-unstyled d-flex gap-3 fs-4">
+                      <li><i class="bi bi-facebook border px-2 py-1 rounded"></i></li>
+                      <li><i class="bi bi-instagram border px-2 py-1 rounded"></i></li>
+                      <li><i class="bi bi-twitter border px-2 py-1 rounded"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!----------------------------------- H O M E - S E C T I O N ----------------------------->
-        <section id="home">
-            <div class="row gx-0">
+      <!----------------------------------- H O M E - S E C T I O N ----------------------------->
+
+      <!----------------------------------- A B O U T - U S - S E C T I O N ----------------------------->
+
+      <!-- Timeline 1 - Bootstrap Brain Component -->
+      <section class="bsb-timeline-1 py-5" id="about-us">
+        <div class="container">
+          <div class="about-us-title pb-5">
+            <h2 class="text-warning fs-1">About us</h2>
+          </div>
+          <div class="row">
+            <div class="col-10 col-md-8 col-lg-6 col-xl-6">
+              <ul class="timeline">
+                <li class="timeline-item">
+                  <div class="timeline-body">
+                    <div class="timeline-content">
+                      <div class="card border-0">
+                        <div class="card-body p-0">
+                          <h2 class="card-title mb-3">Our mission</h2>
+                          <p class="card-text m-0">
+                            Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and
+                            components, and bring projects to life with powerful JavaScript plugins.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="timeline-item">
+                  <div class="timeline-body">
+                    <div class="timeline-content">
+                      <div class="card border-0">
+                        <div class="card-body p-0">
+                          <h2 class="card-title mb-3">Our story</h2>
+                          <p class="card-text m-0">
+                            Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr
+                            and a template starter page. Bootstrap 4 has no active support.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="timeline-item">
+                  <div class="timeline-body">
+                    <div class="timeline-content">
+                      <div class="card border-0">
+                        <div class="card-body p-0">
+                          <h2 class="card-title mb-3">Our team</h2>
+                          <p class="card-text m-0">
+                            Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+                            Bootstrap 3 has no active support.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="img-content d-flex">
+                <img src="./images/about.png" class="img-fluid mx-auto" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------------------------------- A B O U T - U S - S E C T I O N ----------------------------->
+
+      <!----------------------------------- B L O G - S E C T I O N ----------------------------->
+
+      <section id="blog" class="py-5">
+        <div class="container">
+          <div class="blog-title mb-5">
+            <h2 class="fs-1 text-warning">Our Blogs</h2>
+          </div>
+        </div>
+
+        <div class="blog-inner">
+          <div class="container-fluid">
+            <div class="slider-container">
+              <div class="sliderscroll row g-3 pb-5 flex-nowrap overflow-x-scroll">
+                <!-------------------------- BLOG - CARD - 1 -------------------------->
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-left: 6%">
+                  <div class="blog-item">
+                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                      <div class="my-3 p-3">
+                        <h2 class="display-5 text-warning">Foods</h2>
+                        <p class="lead">Food Donations Help Those in Need.</p>
+                      </div>
+                      <div class="mx-auto" style="width: 90%; height: 300px">
+                        <img src="./images/foods.webp" width="100%" class="rounded-top-4" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-------------------------- BLOG - CARD - 2 -------------------------->
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="blog-item">
+                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                      <div class="my-3 p-3">
+                        <h2 class="display-5 text-warning">Education</h2>
+                        <p class="lead">Preparing Students for the Workforce.</p>
+                      </div>
+                      <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
+                        <img src="./images/educations.webp" width="100%" class="rounded-top-4" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-------------------------- BLOG - CARD - 3 -------------------------->
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="blog-item">
+                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                      <div class="my-3 p-3">
+                        <h2 class="display-5 text-warning">Medical</h2>
+                        <p class="lead">Empowering Individuals in Their Healthcare Journey.</p>
+                      </div>
+                      <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
+                        <img src="./images/medical.webp" width="100%" class="rounded-top-4" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-------------------------- BLOG - CARD - 4 -------------------------->
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="blog-item">
+                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                      <div class="my-3 p-3">
+                        <h2 class="display-5 text-warning">Environment</h2>
+                        <p class="lead">The Importance of Environmental Conservation.</p>
+                      </div>
+                      <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
+                        <img src="./images/enviornment.webp" width="100%" class="rounded-top-4" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-------------------------- BLOG - CARD - 5 -------------------------->
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                  <div class="blog-item">
+                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                      <div class="my-3 p-3">
+                        <h2 class="display-5 text-warning">Animals</h2>
+                        <p class="lead">Understanding the Lives of Our Wild Neighbors.</p>
+                      </div>
+                      <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
+                        <img src="./images/animals.webp" width="100%" class="rounded-top-4" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-------------------------- BLOG - CARD - 6 -------------------------->
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-right: 6%">
+                  <div class="blog-item">
+                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                      <div class="my-3 p-3">
+                        <h2 class="display-5 text-warning">Clothes</h2>
+                        <p class="lead">Changing Lives One Garment at a Time.</p>
+                      </div>
+                      <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
+                        <img src="./images/clothes.webp" width="100%" class="rounded-top-4" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-5">
+                <i class="bi bi-arrow-left-circle-fill prevBtn fs-1 ms-5 text-warning"></i>
+                <i class="bi bi-arrow-right-circle-fill nextBtn fs-1 ms-3 text-warning"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------------------- B L O G - S E C T I O N - E N D ---------------------------->
+
+      <!----------------------------------- S T R A T E G I E S - S E C T I O N ----------------------------->
+
+      <section id="strategies" class="py-5 bg-light">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="strategies-item">
+                <div class="card px-3 py-5 shadow border-0" style="height: 25rem">
+                  <img src="images/shelter.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h2 class="text-warning">240+</h2>
+                    <h4 class="card-text">Accommodation & Shelter Projects</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="home-inner p-2">
-                        <div class="home-content position-relative d-flex pt-5">
-                            <div class="home-item ms-5 w-50 text-white mt-5">
-                                <h3 class="fw-bold display-2 text-warning">Together, We Can Make a Difference</h3>
-                                <h2 class="text-capitalize fw-bold">Join us in transforming lives and communities.</h2>
-                                <p>Welcome to [Charity Name], where every contribution helps us create a brighter future
-                                    for those in need. Our mission is
-                                    to [briefly state mission, e.g., 'provide clean water, support education, and
-                                    empower communities.'</p>
-                                <a class="btn btn-warning fw-semibold " href="#">Donate now</a>
-                                <div class="position-absolute bottom-0 start-0 ms-5 mb-5">
-                                    <ul class="list-unstyled d-flex gap-3 fs-4">
-                                        <li><i class="bi bi-facebook border px-2 py-1 rounded"></i></li>
-                                        <li><i class="bi bi-instagram border px-2 py-1 rounded"></i></li>
-                                        <li><i class="bi bi-twitter border px-2 py-1 rounded"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="strategies-title text-center" style="height: 10rem">
+                    <h2 class="text-capitalize">Strategic priorities upto 2040 are</h2>
+                    <a href="#" class="btn btn-warning rounded-pill fw-semibold">Become a volunteer</a>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="strategies-item">
+                    <div class="card px-3 py-5 shadow border-0" style="height: 15rem">
+                      <img src="images/last-year.webp" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h2 class="text-warning">612+</h2>
+                        <h4 class="card-text">People supported last year</h4>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </section>
-
-        <!----------------------------------- H O M E - S E C T I O N ----------------------------->
-
-        <!----------------------------------- A B O U T - U S - S E C T I O N ----------------------------->
-
-        <!-- Timeline 1 - Bootstrap Brain Component -->
-        <section class="bsb-timeline-1 py-5" id="about-us">
-            <div class="container">
-
-                <div class="about-us-title pb-5">
-                    <h2 class="text-warning fs-1">About us</h2>
-                </div>
-                <div class="row">
-                    <div class="col-10 col-md-8 col-lg-6 col-xl-6">
-
-                        <ul class="timeline">
-                            <li class="timeline-item">
-                                <div class="timeline-body">
-                                    <div class="timeline-content">
-                                        <div class="card border-0">
-                                            <div class="card-body p-0">
-                                                <h2 class="card-title mb-3">Our mission</h2>
-                                                <p class="card-text m-0">Powerful, extensible, and feature-packed
-                                                    frontend
-                                                    toolkit. Build and customize with Sass, utilize prebuilt grid system
-                                                    and
-                                                    components, and bring projects to life with powerful JavaScript
-                                                    plugins.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="timeline-item">
-                                <div class="timeline-body">
-                                    <div class="timeline-content">
-                                        <div class="card border-0">
-                                            <div class="card-body p-0">
-                                                <h2 class="card-title mb-3">Our story</h2>
-                                                <p class="card-text m-0">Get started with Bootstrap, the world’s most
-                                                    popular
-                                                    framework for building responsive, mobile-first sites, with jsDelivr
-                                                    and a
-                                                    template starter page. Bootstrap 4 has no active support.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="timeline-item">
-                                <div class="timeline-body">
-                                    <div class="timeline-content">
-                                        <div class="card border-0">
-                                            <div class="card-body p-0">
-                                                <h2 class="card-title mb-3">Our team</h2>
-                                                <p class="card-text m-0">Bootstrap is the most popular HTML, CSS, and JS
-                                                    framework for developing responsive, mobile first projects on the
-                                                    web.
-                                                    Bootstrap 3 has no active support.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="img-content d-flex">
-                            <img src="./images/about.png" class="img-fluid mx-auto" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!----------------------------------- A B O U T - U S - S E C T I O N ----------------------------->
-
-        <!----------------------------------- B L O G - S E C T I O N ----------------------------->
-
-        <section id="blog" class="py-5">
-
-            <div class="container">
-                <div class="blog-title mb-5">
-                    <h2 class="fs-1 text-warning">Our Blogs</h2>
-                </div>
+              </div>
             </div>
 
-            <div class="blog-inner">
-                <div class="container-fluid">
-                    <div class="row g-3 pb-5 flex-nowrap overflow-x-scroll">
-
-                        <!-------------------------- BLOG - CARD - 1 -------------------------->
-
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-left: 6%;">
-                            <div class="blog-item">
-                                <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
-                                    <div class="my-3 p-3">
-                                        <h2 class="display-5 text-warning">Foods</h2>
-                                        <p class="lead">Food Donations Help Those in Need.</p>
-                                    </div>
-                                    <div class=" mx-auto"
-                                        style="width: 90%; height: 300px;">
-                                        <img src="./images/foods.webp" width="100%" class="rounded-top-4" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-------------------------- BLOG - CARD - 2 -------------------------->
-
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item">
-                                <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
-                                    <div class="my-3 p-3">
-                                        <h2 class="display-5 text-warning">Education</h2>
-                                        <p class="lead">Preparing Students for the Workforce.</p>
-                                    </div>
-                                    <div class="bg-dark shadow-sm mx-auto"
-                                        style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;">
-                                        <img src="./images/educations.webp" width="100%" class="rounded-top-4" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-------------------------- BLOG - CARD - 3 -------------------------->
-
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item">
-                                <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
-                                    <div class="my-3 p-3">
-                                        <h2 class="display-5 text-warning">Medical</h2>
-                                        <p class="lead">Empowering Individuals in Their Healthcare Journey.</p>
-                                    </div>
-                                    <div class="bg-dark shadow-sm mx-auto"
-                                        style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;">
-                                        <img src="./images/medical.webp" width="100%" class="rounded-top-4" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-------------------------- BLOG - CARD - 4 -------------------------->
-
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item">
-                                <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
-                                    <div class="my-3 p-3">
-                                        <h2 class="display-5 text-warning">Environment</h2>
-                                        <p class="lead">The Importance of Environmental Conservation.</p>
-                                    </div>
-                                    <div class="bg-dark shadow-sm mx-auto"
-                                        style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;">
-                                        <img src="./images/enviornment.webp" width="100%" class="rounded-top-4" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-------------------------- BLOG - CARD - 5 -------------------------->
-
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                            <div class="blog-item">
-                                <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
-                                    <div class="my-3 p-3">
-                                        <h2 class="display-5 text-warning">Animals</h2>
-                                        <p class="lead">Understanding the Lives of Our Wild Neighbors.</p>
-                                    </div>
-                                    <div class="bg-dark shadow-sm mx-auto"
-                                        style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;">
-                                        <img src="./images/animals.webp" width="100%" class="rounded-top-4" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-------------------------- BLOG - CARD - 6 -------------------------->
-
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-right: 6%;">
-                            <div class="blog-item">
-                                <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
-                                    <div class="my-3 p-3">
-                                        <h2 class="display-5 text-warning">Clothes</h2>
-                                        <p class="lead">Changing Lives One Garment at a Time.</p>
-                                    </div>
-                                    <div class="bg-dark shadow-sm mx-auto"
-                                        style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;">
-                                        <img src="./images/clothes.webp" width="100%" class="rounded-top-4" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="strategies-item">
+                <div class="card px-3 py-5 shadow border-0" style="height: 25rem">
+                  <img src="images/support.webp" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h2 class="text-warning">60k+</h2>
+                    <h4 class="card-text">Marginalsied People Supported Daily</h4>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!----------------------------------- B L O G - S E C T I O N - E N D ---------------------------->
+      <!----------------------------------- S T R A T E G I E S - S E C T I O N - E N D ---------------------------->
 
-        <!----------------------------------- S T R A T E G I E S - S E C T I O N ----------------------------->
+      <!----------------------------------- F O R M - S E C T I O N  ---------------------------->
 
-        <section id="strategies" class="py-5 bg-light">
-
-            <div class="container">
-                <div class="row g-3">
-
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="strategies-item">
-                            <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
-                                <img src="images/shelter.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2 class="text-warning">240+</h2>
-                                    <h4 class="card-text">Accommodation & Shelter Projects</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="row ">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="strategies-title text-center" style="height: 10rem;">
-                                    <h2 class="text-capitalize">Strategic priorities upto 2040 are</h2>
-                                    <a href="#" class="btn btn-warning rounded-pill fw-semibold">Become a volunteer</a>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="strategies-item">
-                                    <div class="card px-3 py-5 shadow border-0" style=" height: 15rem;">
-                                        <img src="images/last-year.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h2 class="text-warning">612+</h2>
-                                            <h4 class="card-text">People supported last year</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="strategies-item">
-                            <div class="card px-3 py-5 shadow border-0" style=" height: 25rem;">
-                                <img src="images/support.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2 class="text-warning">60k+</h2>
-                                    <h4 class="card-text">Marginalsied People Supported Daily</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="strategies-title py-5 text-center">
-                    <h2>Together we can a make difference</h2>
-                    <p class="w-50 mx-auto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum est
-                        rerum itaque sunt aperiam qui? Deserunt magnam sequi nostrum corrupti perferendis beatae est
-                        dicta obcaecati, omnis eum porro accusantium saepe.</p>
-                </div>
+      <section class="form py-5 bg-light">
+        <div class="container">
+            <div class="form-title">
             </div>
-        </section>
+            <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="form-img p-5">
+                 <h2 class="display-2 fw-bold text-warning">
+                    Make a Difference Today!
+                </h2>
+                 <p class="fs-3 fw-semibold">Your Generosity Can Change Lives – Join Us in Supporting Those in Need.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <form action="#" class="border p-5 rounded-4 bg-warning">
+                <h2 class="text-white">Become a volunteer</h2>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label text-white">Your Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" />
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label text-white">Phone No.</label>
+                <input type="number" class="form-control" id="formGroupExampleInput2"/>
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label text-white">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2"/>
+              </div>
 
-        <!----------------------------------- S T R A T E G I E S - S E C T I O N - E N D ---------------------------->
+              <input type="submit" class="btn btn-light">
+            </form>
+          </div>
+        </div>
+        </div>
+      </section>
 
+      <!----------------------------------- F O R M - S E C T I O N - E N D ---------------------------->
     </main>
     <footer id="footer" class="p-3">
-        <div class="card mx-auto py-5 rounded-top-4 rounded-bottom-0 border-0" style="width: 50rem;">
-            <div class="card-title text-center">
-                <h4 class="text-capitalize text-white">do your bit by donating to the mission: let's change world</h4>
-            </div>
-            <a href="#" class="btn btn-dark mx-auto" style="width: max-content;">Make Donation</a>
+      <div class="card mx-auto py-5 rounded-top-4 rounded-bottom-0 border-0" style="width: 50rem">
+        <div class="card-title text-center">
+          <h4 class="text-capitalize text-white">do your bit by donating to the mission: let's change world</h4>
         </div>
+        <a href="#" class="btn btn-dark mx-auto" style="width: max-content">Make Donation</a>
+      </div>
 
-        <div class="main-footer bg-black py-5 rounded-4">
-            <div class="container">
-                <div class="row gx-5">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <h2 class="text-white">About us</h2>
-                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore culpa
-                            doloribus aliquid ut quibusdam velit neque mollitia illo nostrum magnam eos, modi obcaecati,
-                            odit rem cumque maiores recusandae facilis vel.</p>
-                        <div class="footer-icons d-flex gap-3">
-                            <a class="fs-5 text-white" href="#"><i class="bi bi-facebook"></i></a>
-                            <a class="fs-5 text-white" href="#"><i class="bi bi-instagram"></i></a>
-                            <a class="fs-5 text-white" href="#"><i class="bi bi-twitter"></i></a>
-                            <a class="fs-5 text-white" href="#"><i class="bi bi-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <div class="footer-content px-5 mx-5">
-                            <h2 class="text-white">Information</h2>
-                            <p class="text-white">Become a volunteer</p>
-                            <p class="text-white">Become a volunteer</p>
-                            <p class="text-white">Make a donation</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <div class="footer-content px-5 mx-5">
-                            <h2 class="text-white">Support</h2>
-                            <p class="text-white">All causes</p>
-                            <p class="text-white">Electricity</p>
-                            <p class="text-white">Food and water</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="main-footer bg-black py-5 rounded-4">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+              <h2 class="text-white">About us</h2>
+              <p class="text-white">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore culpa doloribus aliquid ut quibusdam velit neque mollitia illo
+                nostrum magnam eos, modi obcaecati, odit rem cumque maiores recusandae facilis vel.
+              </p>
+              <div class="footer-icons d-flex gap-3">
+                <a class="fs-5 text-white" href="#"><i class="bi bi-facebook"></i></a>
+                <a class="fs-5 text-white" href="#"><i class="bi bi-instagram"></i></a>
+                <a class="fs-5 text-white" href="#"><i class="bi bi-twitter"></i></a>
+                <a class="fs-5 text-white" href="#"><i class="bi bi-youtube"></i></a>
+              </div>
             </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="footer-content px-5 mx-5">
+                <h2 class="text-white">Information</h2>
+                <p class="text-white">Become a volunteer</p>
+                <p class="text-white">Become a volunteer</p>
+                <p class="text-white">Make a donation</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="footer-content px-5 mx-5">
+                <h2 class="text-white">Support</h2>
+                <p class="text-white">All causes</p>
+                <p class="text-white">Electricity</p>
+                <p class="text-white">Food and water</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script/script.js"></script>
-</body>
-
+  </body>
 </html>

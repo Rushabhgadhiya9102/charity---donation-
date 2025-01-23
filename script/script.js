@@ -15,6 +15,23 @@ document.addEventListener("DOMContentLoaded",function (){
             login.style.display="block";   
         }
     });
+});
 
 
+// ----------------- SLIDER ----------------------
+
+document.querySelectorAll(".slider-container").forEach((container) => {
+  const scrollContainer = container.querySelector(".sliderscroll");
+  const prevBtn = container.querySelector(".prevBtn");
+  const nextBtn = container.querySelector(".nextBtn");
+
+  prevBtn.addEventListener("click", function () {
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft -= 350; // Adjust the scroll amount as needed
+  });
+
+  nextBtn.addEventListener("click", function () {
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft += 350; // Adjust the scroll amount as needed
+  });
 });

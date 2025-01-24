@@ -14,9 +14,9 @@
     <!--------------------------------------- N A V I G A T I O N - B A R -------------------------------------------->
 
     <header>
-      <nav id="navbar" class="navbar navbar-expand-lg fixed-top justify-content-center">
-        <div class="container-fluid px-5 rounded-pill mx-3 mt-2">
-          <a class="navbar-brand fs-4" href="#"><i class="bi bi-heart-pulse-fill text-white fw-bold"> </i></a>
+      <nav id="navbar" class="navbar d-none d-lg-block rounded-3 mt-2 navbar-expand-lg fixed-top mx-3">
+        <div class="container-fluid px-5 ">
+          <a class="navbar-brand fs-4" href="#"><i class="bi bi-globe-americas text-white fw-bold"> </i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-navbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,6 +50,41 @@
           </div>
         </div>
       </nav>
+
+      <!-- navbar-mobile -->
+
+      <nav id="navbar2" class="navbar d-lg-none d-sm-block rounded-3 mx-2 mb-2 navbar-expand-lg bg-warning fixed-bottom ">
+        <div class="container-fluid">
+          
+          <div class="" id="my-navbar">
+            <ul class="navbar-nav mx-4 mb-lg-0 flex-row gap-5">
+              <li class="nav-item">
+                <a class="nav-link active text-white fs-5 fw-semibold" href="#home">
+                  <i class="bi bi-house-fill"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-5 fw-semibold" href="#aboutUs">
+                  <i class="bi bi-person-fill"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-5 fw-semibold" href="#blog">
+                  <i class="bi bi-body-text"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-5 fw-semibold" href="#getInvolved">
+                  <i class="bi bi-telephone-fill"></i>
+                </a>
+              </li>
+             <li class="nav-item">
+                <a class="nav-link fs-5 text-white" href="#"><i class="bi bi-person-circle"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--------------------------------------- N A V I G A T I O N - B A R - E N D ------------------------------------------->
@@ -64,9 +99,9 @@
                 <div class="home-item ms-5 w-50 text-white mt-5">
                   <h3 class="fw-bold display-2 text-warning">Together, We Can Make a Difference</h3>
                   <h2 class="text-capitalize fw-bold">Join us in transforming lives and communities.</h2>
-                  <p>
-                    Welcome to [Charity Name], where every contribution helps us create a brighter future for those in need. Our mission is to
-                    [briefly state mission, e.g., 'provide clean water, support education, and empower communities.'
+                  <p class="fs-5">
+                    Welcome to New Earth Charity donation, where every contribution helps us create a brighter future for those in need. Our mission is to
+                    'provide clean water, support education, and empower communities.'
                   </p>
                   <a class="btn btn-warning fw-semibold" href="#">Donate now</a>
                   <div class="position-absolute bottom-0 start-0 ms-5 mb-5">
@@ -94,25 +129,25 @@
             <h2 class="text-warning fs-1">About us</h2>
           </div>
           <div class="row">
-            <div class="col-10 col-md-8 col-lg-6 col-xl-6">
-              <ul class="d-flex flex-wrap justify-content-center list-unstyled">
-                <li class="bg-light p-5 rounded-4" style="width: 19rem">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <ul class=" list-unstyled">
+                <li class="bg-light p-5 rounded-4">
                   <h2 class="text-warning">Our mission</h2>
-                  <p class="fs-">
+                  <p class="mb-0">
                     As a non-profit organization dedicated to ending homelessness from all over the world, providing access to clean water in
                     developing countries, supporting cancer research
                   </p>
                 </li>
-                <li class="bg-light p-5 rounded-4 ms-3" style="width: 19rem">
+                <li class="bg-light p-5 rounded-4 mt-3">
                   <h2 class="text-warning">Our impact</h2>
-                  <p class="fs-">
+                  <p class="mb-0">
                     For 5 years, we have been providing shelter and essential services to 100+ individuals experiencing homelessness, building 50+
                     wells in 40+ communities, funding groundbreaking research that has led to providing many benifits to community.
                   </p>
                 </li>
-                <li class="bg-light p-5 rounded-4 mt-3" style="width: 19rem">
+                <li class="bg-light p-5 rounded-4 mt-3">
                   <h2 class="text-warning">Our values</h2>
-                  <p class="fs-">
+                  <p class="mb-0">
                     We believe that every human being deserves a safe and dignified life, access to clean water is a fundamental human right,
                     investing in research is crucial for finding cures for devastating disease.
                   </p>
@@ -145,12 +180,12 @@
               <div class="sliderscroll row g-3 pb-5 flex-nowrap overflow-x-scroll">
                 <!-------------------------- BLOG - CARD - 1 -------------------------->
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-left: 6%">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3" style="margin-left: 6%">
                   <div class="blog-item">
-                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                    <div class="bg-body-tertiary shadow text-centr rounded overflow-hidden">
                       <div class="my-3 p-3">
                         <h2 class="display-5 text-warning fw-semibold">Foods</h2>
-                        <p class="lead">Food Donations Help Those in Need.</p>
+                        <p class="lead fw-semibold text-secondary">Food Donations Help Those in Need.</p>
                       </div>
                       <div class="mx-auto" style="width: 90%; height: 300px">
                         <img src="./images/foods.webp" width="100%" class="rounded-top-4" alt="" />
@@ -161,12 +196,12 @@
 
                 <!-------------------------- BLOG - CARD - 2 -------------------------->
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                   <div class="blog-item">
-                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                    <div class="bg-body-tertiary shadow text-centr rounded overflow-hidden">
                       <div class="my-3 p-3">
                         <h2 class="display-5 text-warning fw-semibold">Education</h2>
-                        <p class="lead">Preparing Students for the Workforce.</p>
+                        <p class="lead fw-semibold text-secondary">Preparing Students for the Workforce.</p>
                       </div>
                       <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
                         <img src="./images/educations.webp" width="100%" class="rounded-top-4" alt="" />
@@ -177,12 +212,12 @@
 
                 <!-------------------------- BLOG - CARD - 3 -------------------------->
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                   <div class="blog-item">
-                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                    <div class="bg-body-tertiary shadow text-ceter rounded overflow-hidden">
                       <div class="my-3 p-3">
                         <h2 class="display-5 text-warning fw-semibold">Medical</h2>
-                        <p class="lead">Empowering Individuals in Their Healthcare Journey.</p>
+                        <p class="lead fw-semibold text-secondary">Empowering Individuals in Their Healthcare Journey.</p>
                       </div>
                       <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
                         <img src="./images/medical.webp" width="100%" class="rounded-top-4" alt="" />
@@ -193,12 +228,12 @@
 
                 <!-------------------------- BLOG - CARD - 4 -------------------------->
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                   <div class="blog-item">
-                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                    <div class="bg-body-tertiary shadow text-ceter rounded overflow-hidden">
                       <div class="my-3 p-3">
                         <h2 class="display-5 text-warning fw-semibold">Environment</h2>
-                        <p class="lead">The Importance of Environmental Conservation.</p>
+                        <p class="lead fw-semibold text-secondary">The Importance of Environmental Conservation.</p>
                       </div>
                       <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
                         <img src="./images/enviornment.webp" width="100%" class="rounded-top-4" alt="" />
@@ -209,12 +244,12 @@
 
                 <!-------------------------- BLOG - CARD - 5 -------------------------->
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                   <div class="blog-item">
-                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                    <div class="bg-body-tertiary shadow text-ceter rounded overflow-hidden">
                       <div class="my-3 p-3">
                         <h2 class="display-5 text-warning fw-semibold">Animals</h2>
-                        <p class="lead">Understanding the Lives of Our Wild Neighbors.</p>
+                        <p class="lead fw-semibold text-secondary">Understanding the Lives of Our Wild Neighbors.</p>
                       </div>
                       <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
                         <img src="./images/animals.webp" width="100%" class="rounded-top-4" alt="" />
@@ -225,12 +260,12 @@
 
                 <!-------------------------- BLOG - CARD - 6 -------------------------->
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4" style="margin-right: 6%">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3" style="margin-right: 6%">
                   <div class="blog-item">
-                    <div class="bg-body-tertiary shadow text-center rounded overflow-hidden">
+                    <div class="bg-body-tertiary shadow text-cnter rounded overflow-hidden">
                       <div class="my-3 p-3">
                         <h2 class="display-5 text-warning fw-semibold">Clothes</h2>
-                        <p class="lead">Changing Lives One Garment at a Time.</p>
+                        <p class="lead fw-semibold text-secondary">Changing Lives One Garment at a Time.</p>
                       </div>
                       <div class="bg-dark shadow-sm mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0">
                         <img src="./images/clothes.webp" width="100%" class="rounded-top-4" alt="" />
@@ -351,7 +386,7 @@
       <!----------------------------------- F O R M - S E C T I O N - E N D ---------------------------->
     </main>
     <footer id="footer" class="p-3">
-      <div class="card mx-auto bg-warning py-5 rounded-top-4 rounded-bottom-0 border-0" style="width: 50rem">
+      <div class="card mx-auto bg-warning py-5 rounded-top-4 w-75 rounded-bottom-0 border-0" style="width: 50rm">
         <div class="card-title text-center">
           <h4 class="text-capitalize text-white">do your bit by donating to the mission: let's change world</h4>
         </div>

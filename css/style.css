@@ -7,9 +7,10 @@
 .scrolled{
     
     background: #ffc107;
-    border-bottom: 0%;
-    /* backdrop-filter: blur(10px) !important; */
-    width: 50%; 
+    margin-top: 0% !important;
+    padding-top: 0% !important;
+    border-top-left-radius: 0% !important;  
+    border-top-right-radius: 0% !important;  
     transition: .3s ease-out !important;
 }
 
@@ -47,9 +48,12 @@
 
 /* ------------------------------ BLOG SECTION --------------------- */
 
+.blog-item{
+  height: 31rem;
+}
 
 .blog-item img{
-    height: 350px;
+    height: 300px;
 }
 
 #blog .row{
